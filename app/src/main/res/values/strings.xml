@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">QR Hunt</string>
+    <string name="welcome">Welcome QR HUNTER</string>
+    <string name="name">Enter Your Full Name</string>
+    <string name="email">Example@gmail.com</string>
+    <string name="code">Enter Given Code To Play</string>
+    <string name="start">Start</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="tvTitleEmail">Email:</string>
+    <string name="tvTitlePassword">Password:</string>
+    <string name="tvTitleName">Name:</string>
+    <string name="tvTitleCode">Code:</string>
+    <string name="register">Register</string>
+    <string name="signup">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="instruction">Instruction</string>
+    <string name="howtoplay">How to play</string>
+    <string name="play">Play Game</string>
+    <string name="create">Create Game</string>
+    <string name="view">View / Edit Game</string>
+    <string name="nolocation">Number of location:</string>
+    <string name="time">Total time(min):</string>
+    <string name="next">Next</string>
+    <string name="done">Done</string>
+    <string name="gametitle">Game title:</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="correctans">Check the correct answer:</string>
+    <string name="hint">Location Hint:</string>
+    <string name="genqr">Generate QR Code</string>
+    <string name="saveimage">Screen Short the qr code to print</string>
+
+    <string name="updateprofile">Update Profile</string>
+    <string name="updatepwd">Update password</string>
+    <string name="update">Update</string>
+    <string-array name="spinnerNoLocation">
+        <item> 1</item>
+        <item> 2</item>
+        <item> 3</item>
+        <item> 4</item>
+        <item> 5</item>
+        <item> 6</item>
+        <item> 7</item>
+        <item> 8</item>
+        <item> 9</item>
+        <item> 10</item>
+        <item> 11</item>
+        <item> 12</item>
+        <item> 13</item>
+        <item> 14</item>
+        <item> 15</item>
+
+    </string-array>
+
+    <string-array name="spinnerTime">
+        <item> 30</item>
+        <item> 60</item>
+        <item> 90</item>
+        <item> 120</item>
+        <item> 150</item>
+        <item> 180</item>
+    </string-array>
+
+
+</resources>
+
+

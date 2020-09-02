@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    color 1 #ffe39a background yellow
+    color 2 #4b2000 side nav header brown
+    color 3
+    -->
+    <color name="colorPrimary">#FFB800</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="brownred">#ffffff</color>
+    <color name="redbrown">#4b2000</color>
+    <color name="QRCodeBlackColor">#000000</color>
+    <color name="QRCodeWhiteColor">#FFFFFF</color>
+</resources>

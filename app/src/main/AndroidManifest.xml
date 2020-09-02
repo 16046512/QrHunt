@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a16046512.qrhunt">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".nav_create_account" />
+        <activity android:name=".nav_login" />
+        <activity android:name=".nav_instruction" />
+        <activity android:name=".acc_home" />
+        <activity android:name=".acc_instruction" />
+        <activity android:name=".acc_profile" />
+        <activity android:name=".acc_creategame" />
+        <activity android:name=".acc_creategame2" />
+        <activity
+            android:name=".acc_creategame3"
+            android:parentActivityName=".acc_creategame2" />
+        <activity
+            android:name=".acc_View"
+            android:parentActivityName=".acc_home" />
+        <activity
+            android:name=".acc_ViewGame"
+            android:parentActivityName=".acc_View" />
+        <activity
+            android:name=".acc_ViewGameEdit"
+            android:parentActivityName=".acc_ViewGame" />
+        <activity
+            android:name=".acc_StartGame"
+            android:parentActivityName=".acc_ViewGame" />
+        <activity
+            android:name=".acc_StartGameViewCode"
+            android:parentActivityName=".acc_ViewGame" />
+        <activity android:name=".acc_Game" />
+        <activity android:name=".acc_QRScan" />
+        <activity android:name=".Hint"></activity>
+    </application>
+
+</manifest>
